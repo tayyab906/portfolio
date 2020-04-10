@@ -1,0 +1,544 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+* {
+  box-sizing: border-box;
+}
+
+header,
+section {
+  overflow-x: hidden;
+}
+
+:root {
+  --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --light-black: #2e2c2caf;
+  --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+  --light-gray: rgba(255, 255, 255, 0.877);
+}
+header a {
+  font-family: var(--Sniglet-font);
+  font-size: 1.4em;
+  color: #888888
+}
+
+header .nav-item:last-child {
+  padding-right: 10.5em;
+}
+
+header .nav-item {
+  padding: 0.9em;
+  border-radius: 4px;
+}
+
+header .navbar-brand {
+  padding-left: 8rem;
+  font-size: 2.2em;
+  color: rgb(247, 203, 9);
+}
+header .nav-link{
+  border-radius: 5px 5px 0px 5px;
+}
+
+header .nav-link:hover {
+  color: white;
+  background-color: rgb(247, 203, 9);
+}
+
+header .row .col-md-7 {
+  padding: 15vmin 0vmin 1vmin 1vmin;
+  padding-bottom: vmin;
+}
+
+header .row .col-md-5 {
+  padding: 0vmin 0vmin 1vmin 0vmin;
+}
+
+header .row .col-md-5 img {
+  width: 90%;
+}
+
+.line{
+
+  clear: both;
+  color: rgb(247, 203, 9);
+  background-color: rgb(247, 203, 9);
+  height: 3px;
+  border-width: 0;
+  margin-left: 150px;
+  margin-right: 150px;
+ 
+}
+
+header .container .col-md-7 {
+  font-family: "Rubik", sans-serif;
+  color: #888888;
+}
+
+header .container .col-md-7 h6 {
+  padding: 0vmin 0rem 0rem 2rem;
+   font-size: 8vmin;
+  color: black;
+}
+
+header .container .col-md-7 h5 {
+  font-size: vmin;
+  font-weight: bold;
+  padding: 0.1em 0em;
+  color: rgb(247, 203, 9);
+  text-align: right;
+  padding-right: 4rem;
+
+}
+
+header .container .col-md-7 p {
+  padding: 1vmin ;
+  color: #888888;
+  font-size: 1.5em;
+  text-align: right;
+}
+
+.primary-btn {
+  border-radius: 6px 6px 0px 6px;
+  font-size: 20px;
+  padding: 1em 1em 1rem 1rem;
+  background-color: rgb(247, 203, 9);
+  color: white;
+  margin-top:  5rem;
+  margin-left: 25rem;
+
+ 
+
+}
+ header .pray{
+ 
+}
+
+.line1{
+
+  clear: both;
+  color: rgb(247, 203, 9);
+  background-color: rgb(247, 203, 9);
+  height: 3px;
+  border-width: 0;
+  margin-left: 50px;
+  margin-right: 0px;
+ 
+}
+/********** section 1 **************/
+
+
+.section-1 {
+  padding: 20vmin 0vmin;
+}
+
+.section-1 .row .col-md-5 .pray img {
+  opacity: 0.8;
+  width: 100%;
+  border-radius: 1.2em 1.2em 1.2em 1.2em;
+  
+}
+
+.section-1 .row .col-md-6:last-child {
+  position: relative;
+}
+
+.section-1 .row .col-md-7 .panel {
+  position: relative;
+  top: 3vmin;
+  
+  border-radius: 3px;
+  text-align: left;
+  
+}
+
+.section-1 .row .col-md-7 .panel h1 {
+  font-weight: bold;
+  padding: 0em 0.4em 0em 0;
+  font-size: 3em;
+}
+
+.section-1 .row .col-md-7 .panel p {
+  font-size: 1.5em;
+  color: rgba(0, 0, 0, 0.5);
+}
+.secondly-btn{
+  border-radius: 6px 6px 0px 6px;
+  font-size: 20px;
+  padding: 1em 1em 1rem 1rem;
+  background-color: rgb(247, 203, 9);
+  color: white;
+  margin-top: 2rem;
+  padding-bottom: 10rem;
+  margin-bottom: 2rem;
+ 
+
+}
+
+/*  Section 2  */
+
+/*  Section 2  */
+
+.cover {
+ 
+}
+
+.cover .overlay {
+ 
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}
+
+.cover .content {
+ 
+  
+ 
+  padding-top: 4vmin;
+}
+
+.cover .content > h1 {
+ 
+  font-size: 6vmin;
+  color: black;
+  text-align: right;
+}
+
+.cover .content > p {
+  
+  font-size: 1.2em;
+  color: #888888;
+  text-align: right;
+}
+
+.numbers .rect {
+  background: white;
+  width: 17rem;
+  
+  margin: 1rem;
+  border-radius: 0.5em;
+
+}
+
+.numbers {
+  
+}
+
+.numbers .rect h1 {
+  font-size: 5rem;
+  color: tomato;
+}
+
+.numbers .rect > p {
+  font-family: var(--Patua);
+}
+
+.purchase > h1 {
+  padding-top: 15vmin;
+  padding-bottom: 0.1em;
+  font-family: var(--Lobster);
+}
+
+.purchase > p {
+  color: var(--light-black);
+  font-size: 3vmin;
+  padding-bottom: 10vmin;
+}
+
+.purchase .cards .card {
+  width: 22rem;
+  margin: 3vmin 3vmin;
+}
+
+.cards div {
+  padding: 0;
+  margin: 0;
+}
+
+.cards .title {
+  background: rgba(208, 241, 241, 0.199);
+  padding: 1.4em 2.5em;
+  font-size: 2vmin;
+}
+
+.card .card-text {
+  padding: 2.5rem 3rem;
+  color: var(--light-black);
+}
+
+.card-body .pricing {
+  background: rgba(208, 241, 241, 0.199);
+  border-top-right-radius: 170px;
+  border-top-left-radius: 170px;
+}
+
+.card-body .pricing > h1 {
+  font-size: 10vmin;
+  padding: 1em 0.5em;
+}
+
+/* Project Area */ 
+
+main .project-area{
+  padding: 4rem 0;
+}
+main .project-area p{
+  font-size: 1.2em;
+  color: #888888;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+}
+main .row2 button{
+  margin-left: 2rem;
+}
+main .project-titile{
+  width: auto;
+  height: 800px;
+  overflow: hidden;
+}
+button:focus,
+button:active
+.btn:active{
+  outline: 0px !important;
+  box-shadow: 0px !important;
+}
+
+main .project-area .button-group button{
+  background: transparent;
+  border: none;
+  font: normal 500 20px/130px var(--roboto);
+  text-transform: uppercase;
+  padding-left: 10rem;
+}
+main .project-area .button-group button:hover{
+  color: rgb(247, 203, 9);
+ 
+}
+
+main .project-area .button-group button + button{
+  padding-left: 2rem;
+}
+
+main .project-area .grid .our-project > .title h4{
+  font: normal 700 25px/12px var(--roboto);
+}
+
+main .project-area .grid .our-project .img a:hover img{
+  filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+
+/* End Project Area */ 
+
+
+/* skills */
+main .specialty .skill{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  padding-right: -5rem;
+  
+   
+   background-color: #efeff8;
+   display: block;
+   margin-bottom: 1rem;
+   border-radius: 10px;
+}
+main .specialty .skill:hover{
+  background-color:  rgb(247, 203, 9);
+  color: white;
+}
+main .specialty .skill i{
+  padding-right: 2rem;
+  font-size: 30px;
+}
+main .specialty .skill .active{
+  background-color:  rgb(247, 203, 9);
+  color: white;
+
+}
+main .specialty .my-work{
+  
+}
+main .specialty .my-work h2{
+  font-size: 45px;
+  text-align: right;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 2rem;
+
+}
+main .specialty .my-work p{
+  font-size: 1.3em;
+  text-align: right;
+  color: #888888;
+  padding-top: 2rem;
+
+}
+
+/* Section 3 */
+main .section-3{
+  padding-top: 10rem;
+  margin-top: 10rem;
+}
+
+.section-3 .platform .desktop {
+  width: 100%;
+  height: 350px;
+  background: rgb(247, 203, 9);
+  background-color: rgb(247, 203, 9);
+  margin-bottom: 10rem;
+}
+.section-3 .platform  .desktop >h1{
+  text-align: left;
+  color: white;
+  font-size: 20rem;
+}
+.section-3 .platform .col-lg-12 h1{
+  color: white;
+  font-size: 3.2em;
+  padding-top: 8rem;
+  padding-left: 5rem;
+}
+.section-3 .platform .col-lg-12 p{
+  color: white;
+  font-size: 2em;
+  padding-top: 8.2rem;
+  padding-left: 5rem;
+}
+.secondly1-btn{
+  border-radius: 6px 6px 0px 6px;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 1em 1em 1rem 1rem;
+  background-color: white;
+  color: rgb(247, 203, 9);
+  margin-top: 8rem;
+  margin-left: 5rem;
+
+ 
+
+}
+
+.section-3 .col-md-12 > h1 {
+  
+  font-family: sans-serif;
+  font-size: 8vmin;
+}
+
+.section-3 .col-md-12 > p {
+  padding-top: 2rem;
+  color: #888888;
+  font-size: 1.3em;
+  padding-bottom: 2rem;
+}
+
+.section-3 .desktop {
+  background: white;
+  display: inline-block;
+  border-radius: 1em;
+
+}
+
+.section-3 .desktop h3 {
+  font-size: 4vmin;
+}
+
+.section-3 .desktop p {
+  font-size: 2vmin;
+}
+
+/* Section Team */
+
+.section-4 .container h1 {
+  font-size: 6vmin;
+  padding-top: 14vmin;
+}
+
+.section-4 .team {
+  padding: 10vmin 4vmin;
+}
+
+.section-4 .card {
+  width: 22em;
+  margin-top: 10vmin;
+}
+
+.section-4 .card .card-text {
+  padding: 0.5em;
+}
+
+.section-4 .card-body > a {
+  font-size: 1.5em;
+}
+
+.section-4 .carousel-item {
+  padding-left: 3rem;
+}
+
+.border-radius {
+  border-radius: 340px;
+  width: 60%;
+}
+
+footer {
+  
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+}
+footer h4{
+  color: black;
+  padding-bottom: 1rem;
+}
+footer p{
+  font-size: 1.3em;
+}
+footer .line2{
+
+  clear: both;
+  color: rgb(247, 203, 9);
+  background-color: rgb(247, 203, 9);
+  height: 2px;
+  border-width: 0;
+ 
+}
+
+
+
+
+
+
+
+footer .input-group .input-group-text {
+  background: var(--bggradient);
+  border: none;
+}
+
+footer .column i:hover {
+  color: rgb(247, 203, 9);
+  
+}
+footer .col-md-6 {
+  display: inline-flex
+}
+footer .row .icon{
+  padding-top: 2rem;
+  text-align: right;
+}
+
+/* It is Adjacent sibling combinator */
+
+footer .column i + i {
+  padding: 0 1.5em;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.815);
+  z-index: 9999;
+  transition: all 1.5s ease;
+}
